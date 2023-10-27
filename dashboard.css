@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+	margin: 0;
+}
+#dashboardMainContainer{
+	
+	display: flex;
+	flex-direction: row;
+}
+div.dashboard_sidebar{
+	width: 20%;
+	background: #00008b;
+	height: 100vh;
+}
+div.dashboard_sidebar h1{
+	color: #FFF;
+	font-size: 20px;
+	margin-left: 50px
+}
+div.dashboard_content_container{
+	width: 80%;
+	background: #f4f6f9;
+}
+div.dashboard_sidebar img{
+	margin-top: 20px;
+	margin-left: 23px;
+	width: 200px;
+    height: auto; 
+}
+ul.dashboard_menu_lists{
+	margin-top: 20px;
+}
+ul.dashboard_menu_lists li{
+	padding: 15px 15px;
+	font-size: 15px;
+	margin-left: -50px;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+ul.dashboard_menu_lists li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	height: auto;
+	display: block;
+}
+ul.dashboard_menu_lists li a i{
+	font-size: 15px;
+
+}
+ul.dashboard_menu_lists li.menuActive{
+	background: #5272f2;
+	color: #FFF;
+}
+ul.dashboard_menu_lists li:hover{
+	background: #5272f2; 
+	color: fff;
+	transition: 0.3s all;
+}
+div.dashboard_topNav{
+	background: #FFF;
+	padding: 20px;
+}
+div.dashboard_topNav a{
+	color: #848383;
+}
+div.dashboard_topNav.btn.btn-light{
+	align-items: right;
+	background-color: black;
+}
+a#logoutBtn{
+	text-decoration: none;
+	float: right;
+	font-family: 'Arial';
+}
+div.dashboard_content{
+	padding: 50px 10px 10px 10px;
+}
+div.dashboard_content_main{
+	background: #FFF;
+	max-height: 900px;
+	height: 100%;
+}
